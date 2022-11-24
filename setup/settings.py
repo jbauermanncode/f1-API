@@ -26,7 +26,7 @@ SECRET_KEY = 'gxf8z4%==f-(^3irh$6)6b(zx^yyvru@*d7*entlzd-w5$one@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://f1-webscraping-api.herokuapp.com/']
 
 
 # Application definition
