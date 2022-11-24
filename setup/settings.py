@@ -122,6 +122,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfile')
+
 MEDIA_URL = '/temporadas/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'temporadas')
